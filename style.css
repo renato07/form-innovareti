@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  background-color: #7005a1fb;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 32px;
+  letter-spacing: 1px;
+  margin: 20px 0;
+  color: white;
+}
+
+form {
+  margin: 20px 0px;
+  background-color: white;
+  padding: 100px 190px;
+  border-radius: 5px;
+}
+
+form .input-name {
+  margin-bottom: 20px;
+  position: relative;
+  top: -75px;
+  right: 150px;
+}
+
+.input-formation {
+  position: relative;
+  top: -74px;
+  right: 150px;
+}
+
+.input-email {
+  position: relative;
+  top: -215px;
+  left: 140px;
+}
+
+.input-cpf {
+  position: relative;
+  top: -193px;
+  left: 140px;
+}
+
+.input-date {
+  margin-bottom: 0px;
+  position: relative;
+  top: -253px;
+  left: 350px;
+}
+
+.radio-bottom {
+  position: relative;
+  top: -220px;
+  right: 150px;
+}
+
+.input-others {
+  position: relative;
+  top: 25px;
+  right:0px;
+}
+
+.btn-send {
+  position: relative;
+  top: 200px;
+  right: -150px;
+}
+
+
+form .input-name label {
+  font-size: 14px;
+  color: #7005a1fb;
+}
+
+form .input-formation label {
+  font-size: 14px;
+  color: #7005a1fb;
+}
+
+form .input-email label {
+  font-size: 14px;
+  color: #7005a1fb;
+}
+
+form .input-cpf label {
+  font-size: 14px;
+  color: #7005a1fb;
+}
+
+form .input-date label {
+  font-size: 14px;
+  color: #7005a1fb;
+}
+
+form .input-others label {
+  font-size: 14px;
+  color: #7005a1fb;
+}
+
+form .input-name input {
+  width: 270px;
+  display: block;
+  margin-top: 8px;
+  padding: 7px;
+  font-size: 16px;
+  color: #666666;
+  border-radius: 2px;
+  border: 1px solid #ccddef;
+  outline-color: #7159c1;
+}
+
+form .input-formation input {
+  width: 270px;
+  display: block;
+  margin-top: 8px;
+  padding: 7px;
+  font-size: 16px;
+  color: #666666;
+  border-radius: 2px;
+  border: 1px solid #ccddef;
+  outline-color: #7159c1;
+}
+
+form .input-email input {
+  width: 400px;
+  display: block;
+  margin-top: 8px;
+  padding: 7px;
+  font-size: 16px;
+  color: #666666;
+  border-radius: 2px;
+  border: 1px solid #ccddef;
+  outline-color: #7159c1;
+}
+
+form .input-cpf input {
+  width: 190px;
+  display: block;
+  margin-top: 8px;
+  padding: 7px;
+  font-size: 16px;
+  color: #666666;
+  border-radius: 2px;
+  border: 1px solid #ccddef;
+  outline-color: #7159c1;
+}
+
+form .input-date input {
+  width: 190px;
+  display: block;
+  margin-top: 8px;
+  padding: 4px;
+  font-size: 16px;
+  color: #666666;
+  border-radius: 2px;
+  border: 1px solid #ccddef;
+  outline-color: #7159c1;
+}
+
+form .input-others input {
+  width: 270px;
+  display: block;
+  margin-top: 8px;
+  padding: 7px;
+  font-size: 16px;
+  color: #666666;
+  border-radius: 2px;
+  border: 1px solid #ccddef;
+  outline-color: #7159c1;
+}
+
+form .btn-send {
+  display: block;
+  min-width: 200px;
+  border: none;
+  background-color: #7159c1;
+  color: white;
+  border-radius: 25px;
+  margin: auto;
+  padding: 12px;
+  font-size: 16px;
+}
+
+h2 {
+  position: relative;
+  left: 890px;
+  top: 0px;
+  color: white;
+  font-size: 14px;
+}
+
+form {
+  animation-name: fade;
+  animation-duration: 500ms;
+}
+
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
